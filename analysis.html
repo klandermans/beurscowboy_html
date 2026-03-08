@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="nl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markt Analyse | Beurs Cowboy</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Live AI-gedreven aandelen analyses, sentiment scores en marktnieuws. De slimste manier om de beurs te volgen.">
+    <meta name="keywords" content="aandelen, beurs, analyse, sentiment, AI, crypto, AEX, Wall Street">
+    <meta name="author" content="Beurs Cowboy">
+    <link rel="canonical" href="http://localhost/analysis.html" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://localhost/analysis.html">
+    <meta property="og:title" content="Markt Analyse">
+    <meta property="og:description" content="Live AI-gedreven aandelen analyses, sentiment scores en marktnieuws. De slimste manier om de beurs te volgen.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1611974765270-ca1258634369?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://localhost/analysis.html">
+    <meta property="twitter:title" content="Markt Analyse">
+    <meta property="twitter:description" content="Live AI-gedreven aandelen analyses, sentiment scores en marktnieuws. De slimste manier om de beurs te volgen.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1611974765270-ca1258634369?q=80&w=1200&auto=format&fit=crop">
+
+    <!-- Structured Data -->
+    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            primary: '#0f172a',
+                            secondary: '#1e293b',
+                            accent: '#3b82f6'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer base {
+            body { @apply bg-slate-950 text-slate-200 antialiased; }
+        }
+        @layer components {
+            .card { @apply bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl; }
+            .badge { @apply px-2 py-1 rounded text-xs font-bold uppercase; }
+            .btn-primary { @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-all; }
+        }
+    </style>
+    
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-40">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2">
+                <span class="text-2xl">🤠</span>
+                <span class="text-xl font-black tracking-tight text-white">Beurs<span class="text-blue-500">Cowboy</span></span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="index.html" class="hover:text-blue-400 transition-colors">Markten</a>
+                <a href="analysis.html" class="hover:text-blue-400 transition-colors">Analyse</a>
+                <a href="watchlist.html" class="hover:text-blue-400 transition-colors">Watchlist</a>
+                <a href="admin.html" class="text-slate-500 hover:text-white transition-colors">Admin</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        
+<div class="space-y-8">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+        <div>
+            <h2 class="text-3xl font-black text-white">Quantitative Intelligence</h2>
+            <p class="text-slate-500 font-medium">Deep-dive analyse van sentiment, technische indicatoren en katalysatoren.</p>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-lg px-4 py-2">
+            <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest block">Last Update</span>
+            <span class="text-white font-bold">08-03-2026 18:56</span>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 gap-8">
+        
+        <div class="card border-slate-800 hover:border-blue-500/30 transition-all">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Left: Asset Info -->
+                <div class="lg:col-span-1 border-b lg:border-b-0 lg:border-r border-slate-800 pb-6 lg:pb-0 lg:pr-8">
+                    <div class="flex items-center gap-4 mb-4">
+                        <span class="bg-blue-600 text-white text-xs font-black px-2 py-1 rounded"></span>
+                        <h3 class="text-xl font-bold text-white truncate"></h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Setup Score</span>
+                            <div class="flex items-center gap-3">
+                                <span class="text-3xl font-black text-green-400">8.0</span>
+                                <span class="px-2 py-0.5 rounded bg-slate-800 text-white text-[10px] font-black uppercase tracking-widest">Sterk Koop</span>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-slate-950/50 p-2 rounded">
+                                <span class="text-[10px] font-black text-slate-500 uppercase block">Price</span>
+                                <span class="text-white font-bold">€29.49</span>
+                            </div>
+                            <div class="bg-slate-950/50 p-2 rounded">
+                                <span class="text-[10px] font-black text-slate-500 uppercase block">Change</span>
+                                <span class="font-bold text-green-400">+24.17%</span>
+                            </div>
+                        </div>
+                        <a href="ticker/.html" class="btn-primary w-full text-center text-xs py-2 block">Volledige Analyse</a>
+                    </div>
+                </div>
+
+                <!-- Middle: AI Insights -->
+                <div class="lg:col-span-2 space-y-6">
+                    <div>
+                        <h4 class="text-sm font-black text-blue-400 uppercase tracking-widest mb-3 flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M12 21V5a2 2 0 012 2v2a2 2 0 01-2 2H8a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                            AI Sentiment & Katalysator
+                        </h4>
+                        <div class="bg-slate-950/30 border-l-4 border-blue-500 p-4 rounded-r-lg">
+                            <p class="text-slate-300 italic mb-2">"Geen recent nieuws beschikbaar voor diepgaande analyse."</p>
+                            <div class="flex items-center gap-2">
+                                <span class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Katalysator:</span>
+                                <span class="text-white text-xs font-bold"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-sm font-black text-slate-500 uppercase tracking-widest mb-3">Waarom deze score?</h4>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                            
+                            <div class="flex items-center text-xs text-slate-400 bg-slate-800/20 p-2 rounded">
+                                <svg class="w-3 h-3 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                RSI in bullische zone
+                            </div>
+                            
+                            <div class="flex items-center text-xs text-slate-400 bg-slate-800/20 p-2 rounded">
+                                <svg class="w-3 h-3 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                MACD bullisch momentum
+                            </div>
+                            
+                            <div class="flex items-center text-xs text-slate-400 bg-slate-800/20 p-2 rounded">
+                                <svg class="w-3 h-3 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Bullische MA alignement
+                            </div>
+                            
+                            <div class="flex items-center text-xs text-slate-400 bg-slate-800/20 p-2 rounded">
+                                <svg class="w-3 h-3 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                Hoge volatiliteit (ATR 11.5%)
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Latest News -->
+                <div class="lg:col-span-1 space-y-4">
+                    <h4 class="text-sm font-black text-slate-500 uppercase tracking-widest mb-1">Recent Nieuws</h4>
+                    <div class="space-y-3">
+                        
+                        <div class="p-3 bg-slate-950/50 rounded-lg hover:bg-slate-800 transition-colors cursor-pointer border border-transparent hover:border-blue-500/20"
+                             onclick="openNewsModal('Google joins Microsoft in telling users Anthropic is still available outside defense projects', 'cnbc_top_news', 'Cloud vendors are letting customers know that Anthropic&#39;s popular AI tools can still be accessed after the Department of Defense blacklisted the company.', 'https://www.cnbc.com/2026/03/06/google-says-anthropic-remains-available-outside-of-defense-projects.html')">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="text-[9px] font-black text-blue-400 uppercase tracking-widest">cnbc_top_news</span>
+                                <span class="text-[9px] text-slate-600 font-bold uppercase">08-03-2026 18:48</span>
+                            </div>
+                            <h5 class="text-xs font-bold text-white line-clamp-2 leading-snug">Google joins Microsoft in telling users Anthropic is still available outside defense projects</h5>
+                        </div>
+                        
+                        <div class="p-3 bg-slate-950/50 rounded-lg hover:bg-slate-800 transition-colors cursor-pointer border border-transparent hover:border-blue-500/20"
+                             onclick="openNewsModal('Insight Innovation: Vera Rubin – Nvidia setzt zum nächsten Technologiesprung an', 'handelsblatt', 'Die Erwartungen der Anleger sind immens: Nvidias neue Rubin-Plattform soll ein neues Zeitalter für den Konzern einläuten – und AMD oder Intel Geschäft abjagen.', 'https://www.handelsblatt.com/technik/forschung-innovation/chip-hersteller-vera-rubin-nvidia-setzt-zum-naechsten-technologiesprung-an/100201116.html')">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="text-[9px] font-black text-blue-400 uppercase tracking-widest">handelsblatt</span>
+                                <span class="text-[9px] text-slate-600 font-bold uppercase">08-03-2026 18:48</span>
+                            </div>
+                            <h5 class="text-xs font-bold text-white line-clamp-2 leading-snug">Insight Innovation: Vera Rubin – Nvidia setzt zum nächsten Technologiesprung an</h5>
+                        </div>
+                        
+                        <div class="p-3 bg-slate-950/50 rounded-lg hover:bg-slate-800 transition-colors cursor-pointer border border-transparent hover:border-blue-500/20"
+                             onclick="openNewsModal('March Into the Cloud With 15 New Games Coming to GeForce NOW', 'nvidia_news', 'March is in full bloom, and that means a fresh wave of games heading to the cloud. 15 new titles are joining the GeForce NOW library this month. Leading the March lineup is Pearl Abyss’ Crimson Desert, an open‑world action‑adventure set in a war‑torn fantasy land, alongside plenty of other games to explore. Whether looking […]', 'https://blogs.nvidia.com/blog/geforce-now-thursday-march-2026-games-list/')">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="text-[9px] font-black text-blue-400 uppercase tracking-widest">nvidia_news</span>
+                                <span class="text-[9px] text-slate-600 font-bold uppercase">08-03-2026 18:48</span>
+                            </div>
+                            <h5 class="text-xs font-bold text-white line-clamp-2 leading-snug">March Into the Cloud With 15 New Games Coming to GeForce NOW</h5>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+    </main>
+
+    <!-- Global News Modal -->
+    <div id="newsModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+        <div class="absolute inset-0 bg-slate-950/80 backdrop-blur-sm" onclick="closeNewsModal()"></div>
+        <div class="bg-slate-900 border border-slate-800 w-full max-w-2xl rounded-2xl shadow-2xl relative overflow-hidden transition-all transform scale-95 opacity-0 duration-300" id="modalContent">
+            <div class="p-8">
+                <div class="flex justify-between items-start mb-6">
+                    <span id="modalSource" class="bg-blue-600 text-white text-[10px] px-2 py-1 rounded font-black uppercase tracking-widest"></span>
+                    <button onclick="closeNewsModal()" class="text-slate-500 hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+                <h2 id="modalTitle" class="text-2xl font-black text-white mb-4 leading-tight"></h2>
+                <div id="modalSummary" class="text-slate-400 leading-relaxed mb-8 text-lg"></div>
+                <div class="flex justify-end gap-4">
+                    <button onclick="closeNewsModal()" class="px-6 py-2 rounded-lg font-bold text-slate-400 hover:text-white transition-colors text-sm">Sluiten</button>
+                    <a id="modalUrl" href="#" target="_blank" class="btn-primary flex items-center text-sm uppercase tracking-bold">
+                        Lees volledig artikel
+                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 border-t border-slate-800 py-12 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-slate-500 text-sm font-medium">&copy; 2026 Beurs Cowboy Enterprise | Proprietary Quantitative System</p>
+        </div>
+    </footer>
+
+    <script>
+        function openNewsModal(title, source, summary, url) {
+            const modal = document.getElementById('newsModal');
+            const content = document.getElementById('modalContent');
+            document.getElementById('modalTitle').innerText = title;
+            document.getElementById('modalSource').innerText = source;
+            document.getElementById('modalSummary').innerText = summary || 'Geen samenvatting beschikbaar.';
+            document.getElementById('modalUrl').href = url;
+            
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                content.classList.remove('scale-95', 'opacity-0');
+                content.classList.add('scale-100', 'opacity-100');
+            }, 10);
+        }
+
+        function closeNewsModal() {
+            const modal = document.getElementById('newsModal');
+            const content = document.getElementById('modalContent');
+            content.classList.add('scale-95', 'opacity-0');
+            content.classList.remove('scale-100', 'opacity-100');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+        }
+    </script>
+    
+</body>
+</html>
