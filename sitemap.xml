@@ -202,6 +202,7 @@
   <url><loc>https://beurscowboy.nl/ticker/JDEP.AS.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/JNJ.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/JPM.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beurscowboy.nl/ticker/KC.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/KC=F.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/KDP.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/KER.PA.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
@@ -316,6 +317,7 @@
   <url><loc>https://beurscowboy.nl/ticker/SAN.PA.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/SAP.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/SAP.DE.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beurscowboy.nl/ticker/SB.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/SB=F.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/SBUX.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/SCHW.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
