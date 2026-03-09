@@ -491,6 +491,7 @@
   <url><loc>https://beurscowboy.nl/ticker/PA.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/PANW.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/PATH.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beurscowboy.nl/ticker/PAYC.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/PAYX.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/PCAR.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/PCG.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
@@ -695,7 +696,6 @@
   <url><loc>https://beurscowboy.nl/ticker/WKL.AS.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/WLN.PA.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/WM.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beurscowboy.nl/ticker/WMB.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/WMT.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/WYNN.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/XEL.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
@@ -717,6 +717,7 @@
   <url><loc>https://beurscowboy.nl/ticker/ZW=F.html</loc><lastmod>2026-03-09</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260309T210516.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260309T205643.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
+  <url><loc>https://beurscowboy.nl/report/20260309T205625.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260309T205505.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260309T202945.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260309T201501.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
