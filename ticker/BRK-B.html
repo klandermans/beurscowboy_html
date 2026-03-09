@@ -92,15 +92,15 @@
     <!-- Header -->
     <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-40">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="../index.html" class="flex items-center space-x-2">
+            <a href="/" class="flex items-center space-x-2">
                 <span class="text-2xl">🤠</span>
                 <span class="text-xl font-black tracking-tight text-white">Beurs<span class="text-blue-500">Cowboy</span></span>
             </a>
             <nav class="hidden md:flex space-x-8 text-sm font-medium">
-                <a href="../index.html" class="hover:text-blue-400 transition-colors">Markten</a>
-                <a href="../analysis.html" class="hover:text-blue-400 transition-colors">Analyse</a>
-                <a href="../watchlist.html" class="hover:text-blue-400 transition-colors">Watchlist</a>
-                <a href="../admin.html" class="text-slate-500 hover:text-white transition-colors">Admin</a>
+                <a href="/" class="hover:text-blue-400 transition-colors">Markten</a>
+                <a href="/analysis.html" class="hover:text-blue-400 transition-colors">Analyse</a>
+                <a href="/watchlist.html" class="hover:text-blue-400 transition-colors">Watchlist</a>
+                <a href="/admin.html" class="text-slate-500 hover:text-white transition-colors">Admin</a>
             </nav>
         </div>
     </header>
@@ -110,7 +110,7 @@
         
         
     <!-- Back Link -->
-    <a href="../index.html" class="inline-flex items-center text-blue-400 hover:text-blue-300 mb-6 group transition-all">
+    <a href="/" class="inline-flex items-center text-blue-400 hover:text-blue-300 mb-6 group transition-all">
         <svg class="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
         Terug naar Overzicht
     </a>
@@ -162,21 +162,21 @@
                 <div class="grid gap-4">
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Berkshire hathaway', 'consolidated', '', 'https://fd.nl/tag/berkshire-hathaway')">
-                        <div class="flex justify-between items-start mb-2">
-                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
-                            <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
-                        </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Berkshire hathaway</h4>
-                    </div>
-                    
-                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
                          onclick="openNewsModal('Warren buffett', 'consolidated', '', 'https://bnr.nl/tag/warren-buffett')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
                             <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
                         </div>
                         <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Warren buffett</h4>
+                    </div>
+                    
+                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
+                         onclick="openNewsModal('Berkshire hathaway', 'consolidated', '', 'https://fd.nl/tag/berkshire-hathaway')">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
+                            <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
+                        </div>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Berkshire hathaway</h4>
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
@@ -234,15 +234,6 @@
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Warren buffett', 'fd.nl_auto_3', '', 'https://fd.nl/tag/warren-buffett')">
-                        <div class="flex justify-between items-start mb-2">
-                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">fd.nl_auto_3</span>
-                            <span class="text-[10px] text-slate-500 font-bold uppercase">08-03-2026 21:40</span>
-                        </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Warren buffett</h4>
-                    </div>
-                    
-                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
                          onclick="openNewsModal('Berkshire hathaway', 'fd.nl_auto_3', '', 'https://fd.nl/tag/berkshire-hathaway')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">fd.nl_auto_3</span>
@@ -252,18 +243,27 @@
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Billionaire warren buffetts kids must give away 150 billion in 10 years but each donation must be unanimous son told him i want to opt out', 'consolidated', '', 'https://www.benzinga.com/personal-finance/management/26/03/51118533/billionaire-warren-buffetts-kids-must-give-away-150-billion-in-10-years-but-each-donation-must-be-unanimous-son-told-him-i-want-to-opt-out')">
+                         onclick="openNewsModal('Warren buffett', 'fd.nl_auto_3', '', 'https://fd.nl/tag/warren-buffett')">
                         <div class="flex justify-between items-start mb-2">
-                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
-                            <span class="text-[10px] text-slate-500 font-bold uppercase">08-03-2026 20:01</span>
+                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">fd.nl_auto_3</span>
+                            <span class="text-[10px] text-slate-500 font-bold uppercase">08-03-2026 21:40</span>
                         </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Billionaire warren buffetts kids must give away 150 billion in 10 years but each donation must be unanimous son told him i want to opt out</h4>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Warren buffett</h4>
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
                          onclick="openNewsModal('Billionaire warren buffetts kids must give away 150 billion in 10 years but each donation must be unanimous son told him i want to opt out', 'benzinga.com_auto_3', '', 'https://www.benzinga.com/personal-finance/management/26/03/51118533/billionaire-warren-buffetts-kids-must-give-away-150-billion-in-10-years-but-each-donation-must-be-unanimous-son-told-him-i-want-to-opt-out')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">benzinga.com_auto_3</span>
+                            <span class="text-[10px] text-slate-500 font-bold uppercase">08-03-2026 20:01</span>
+                        </div>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Billionaire warren buffetts kids must give away 150 billion in 10 years but each donation must be unanimous son told him i want to opt out</h4>
+                    </div>
+                    
+                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
+                         onclick="openNewsModal('Billionaire warren buffetts kids must give away 150 billion in 10 years but each donation must be unanimous son told him i want to opt out', 'consolidated', '', 'https://www.benzinga.com/personal-finance/management/26/03/51118533/billionaire-warren-buffetts-kids-must-give-away-150-billion-in-10-years-but-each-donation-must-be-unanimous-son-told-him-i-want-to-opt-out')">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
                             <span class="text-[10px] text-slate-500 font-bold uppercase">08-03-2026 20:01</span>
                         </div>
                         <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Billionaire warren buffetts kids must give away 150 billion in 10 years but each donation must be unanimous son told him i want to opt out</h4>

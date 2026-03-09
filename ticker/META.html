@@ -92,15 +92,15 @@
     <!-- Header -->
     <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-40">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="../index.html" class="flex items-center space-x-2">
+            <a href="/" class="flex items-center space-x-2">
                 <span class="text-2xl">🤠</span>
                 <span class="text-xl font-black tracking-tight text-white">Beurs<span class="text-blue-500">Cowboy</span></span>
             </a>
             <nav class="hidden md:flex space-x-8 text-sm font-medium">
-                <a href="../index.html" class="hover:text-blue-400 transition-colors">Markten</a>
-                <a href="../analysis.html" class="hover:text-blue-400 transition-colors">Analyse</a>
-                <a href="../watchlist.html" class="hover:text-blue-400 transition-colors">Watchlist</a>
-                <a href="../admin.html" class="text-slate-500 hover:text-white transition-colors">Admin</a>
+                <a href="/" class="hover:text-blue-400 transition-colors">Markten</a>
+                <a href="/analysis.html" class="hover:text-blue-400 transition-colors">Analyse</a>
+                <a href="/watchlist.html" class="hover:text-blue-400 transition-colors">Watchlist</a>
+                <a href="/admin.html" class="text-slate-500 hover:text-white transition-colors">Admin</a>
             </nav>
         </div>
     </header>
@@ -110,7 +110,7 @@
         
         
     <!-- Back Link -->
-    <a href="../index.html" class="inline-flex items-center text-blue-400 hover:text-blue-300 mb-6 group transition-all">
+    <a href="/" class="inline-flex items-center text-blue-400 hover:text-blue-300 mb-6 group transition-all">
         <svg class="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
         Terug naar Overzicht
     </a>
@@ -162,6 +162,24 @@
                 <div class="grid gap-4">
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
+                         onclick="openNewsModal('Gesamtmetall', 'consolidated', '', 'https://fd.nl/tag/gesamtmetall')">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
+                            <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
+                        </div>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Gesamtmetall</h4>
+                    </div>
+                    
+                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
+                         onclick="openNewsModal('Zuckerberg', 'consolidated', '', 'https://bnr.nl/tag/zuckerberg')">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
+                            <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
+                        </div>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Zuckerberg</h4>
+                    </div>
+                    
+                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
                          onclick="openNewsModal('Instituut voor metajuridica', 'consolidated', '', 'https://fd.nl/tag/instituut-voor-metajuridica')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
@@ -171,39 +189,12 @@
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Advanced metallurgical group', 'consolidated', '', 'https://fd.nl/tag/advanced-metallurgical-group')">
+                         onclick="openNewsModal('Rheinmetall', 'consolidated', '', 'https://fd.nl/tag/rheinmetall')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
                             <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
                         </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Advanced metallurgical group</h4>
-                    </div>
-                    
-                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Plethora precious metals fund', 'consolidated', '', 'https://fd.nl/tag/plethora-precious-metals-fund')">
-                        <div class="flex justify-between items-start mb-2">
-                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
-                            <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
-                        </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Plethora precious metals fund</h4>
-                    </div>
-                    
-                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Persoonlijk op instagram', 'consolidated', '', 'https://fd.nl/tag/persoonlijk-op-instagram')">
-                        <div class="flex justify-between items-start mb-2">
-                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
-                            <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
-                        </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Persoonlijk op instagram</h4>
-                    </div>
-                    
-                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Mark zuckerberg', 'consolidated', '', 'https://fd.nl/tag/mark-zuckerberg')">
-                        <div class="flex justify-between items-start mb-2">
-                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
-                            <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
-                        </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Mark zuckerberg</h4>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Rheinmetall</h4>
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
@@ -225,12 +216,21 @@
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Gesamtmetall', 'consolidated', '', 'https://fd.nl/tag/gesamtmetall')">
+                         onclick="openNewsModal('Advanced metallurgical group', 'consolidated', '', 'https://fd.nl/tag/advanced-metallurgical-group')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
                             <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
                         </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Gesamtmetall</h4>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Advanced metallurgical group</h4>
+                    </div>
+                    
+                    <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
+                         onclick="openNewsModal('Mark zuckerberg', 'consolidated', '', 'https://fd.nl/tag/mark-zuckerberg')">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
+                            <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
+                        </div>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Mark zuckerberg</h4>
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
@@ -243,30 +243,30 @@
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Metallgesellschaft', 'consolidated', '', 'https://fd.nl/tag/metallgesellschaft')">
+                         onclick="openNewsModal('Zware metalen', 'consolidated', '', 'https://bnr.nl/tag/zware-metalen')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
                             <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
                         </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Metallgesellschaft</h4>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Zware metalen</h4>
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Rheinmetall', 'consolidated', '', 'https://fd.nl/tag/rheinmetall')">
+                         onclick="openNewsModal('Persoonlijk op instagram', 'consolidated', '', 'https://fd.nl/tag/persoonlijk-op-instagram')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
                             <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
                         </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Rheinmetall</h4>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Persoonlijk op instagram</h4>
                     </div>
                     
                     <div class="group bg-slate-800/40 hover:bg-slate-800 border border-slate-700/50 hover:border-blue-500/50 rounded-xl p-5 transition-all cursor-pointer" 
-                         onclick="openNewsModal('Metaalarbeiders', 'consolidated', '', 'https://bnr.nl/tag/metaalarbeiders')">
+                         onclick="openNewsModal('Edelmetalen', 'consolidated', '', 'https://bnr.nl/tag/edelmetalen')">
                         <div class="flex justify-between items-start mb-2">
                             <span class="text-[10px] font-black text-blue-400 uppercase tracking-widest">consolidated</span>
                             <span class="text-[10px] text-slate-500 font-bold uppercase">09-03-2026 19:05</span>
                         </div>
-                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Metaalarbeiders</h4>
+                        <h4 class="text-white font-bold group-hover:text-blue-400 transition-colors leading-snug">Edelmetalen</h4>
                     </div>
                     
                 </div>
