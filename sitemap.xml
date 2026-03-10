@@ -748,6 +748,7 @@
   <url><loc>https://beurscowboy.nl/ticker/^IXIC.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/^RUT.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/^VIX.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beurscowboy.nl/report/20260310T112952.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260310T111022.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260310T011145.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260309T233113.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
