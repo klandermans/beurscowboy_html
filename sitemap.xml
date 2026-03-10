@@ -116,6 +116,7 @@
   <url><loc>https://beurscowboy.nl/ticker/BNB-USD.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/BND.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/BNP.PA.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beurscowboy.nl/ticker/BNTX.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/BP.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/BR.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/BRK-B.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
@@ -569,6 +570,7 @@
   <url><loc>https://beurscowboy.nl/ticker/ROST.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/RSG.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/RTX.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beurscowboy.nl/ticker/RTY=F.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/RVTY.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/RWE.DE.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/S.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
@@ -748,11 +750,9 @@
   <url><loc>https://beurscowboy.nl/ticker/^IXIC.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/^RUT.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/^VIX.html</loc><lastmod>2026-03-10</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beurscowboy.nl/report/20260310T144235.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
-  <url><loc>https://beurscowboy.nl/report/20260310T134942.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
-  <url><loc>https://beurscowboy.nl/report/20260310T123544.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
-  <url><loc>https://beurscowboy.nl/report/20260310T112952.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
-  <url><loc>https://beurscowboy.nl/report/20260310T111022.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
+  <url><loc>https://beurscowboy.nl/report/20260310T153326.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
+  <url><loc>https://beurscowboy.nl/report/20260310T153059.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
+  <url><loc>https://beurscowboy.nl/report/20260310T115310.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260310T011145.html</loc><lastmod>2026-03-10</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260309T233113.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260309T232649.html</loc><lastmod>2026-03-09</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
