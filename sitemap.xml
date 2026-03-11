@@ -250,7 +250,6 @@
   <url><loc>https://beurscowboy.nl/ticker/ERIE.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/ES.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/ESS.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://beurscowboy.nl/ticker/ETH.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/ETH-USD.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/ETN.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/ETR.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
@@ -750,6 +749,7 @@
   <url><loc>https://beurscowboy.nl/ticker/^IXIC.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/^RUT.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
   <url><loc>https://beurscowboy.nl/ticker/^VIX.html</loc><lastmod>2026-03-11</lastmod><changefreq>hourly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://beurscowboy.nl/report/20260311T194100.html</loc><lastmod>2026-03-11</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260311T185214.html</loc><lastmod>2026-03-11</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260311T132458.html</loc><lastmod>2026-03-11</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
   <url><loc>https://beurscowboy.nl/report/20260311T113413.html</loc><lastmod>2026-03-11</lastmod><changefreq>never</changefreq><priority>0.5</priority></url>
